@@ -2,7 +2,7 @@
 # Vaultie DID Method Specification
 v0.0.1, Dmitry Semenovskiy, Vaultie Inc.
 ## Introduction
-Vaultie aims to create a fully verifiable blockchain-based digital signatures that are both legally binding and link to real identities. At its core Vaultie uses Ethereum to anchor the signature, conforming to W3C standards (https://w3c-dvcg.github.io/lds-merkleproof2017/) and IPFS as the data storage.
+Vaultie aims to create a fully verifiable blockchain-based digital signatures that are both legally binding and link to real identities. At its core Vaultie uses Ethereum to anchor the signature, conforming to W3C standards (https://w3c-dvcg.github.io/lds-merkle-proof-2019/) and IPFS as the data storage.
 ### Ethereum
 Ethereum is an open source, public, blockchain-based distributed computing platform and operating system featuring Smart Contracts functionality. There is an ability to anchor data using an Ethereum transaction's input.
 ### IPFS
