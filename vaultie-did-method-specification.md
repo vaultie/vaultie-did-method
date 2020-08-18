@@ -2,9 +2,9 @@
 # Vaultie DID Method Specification
 v0.0.1, Dmitry Semenovskiy, Vaultie Inc.
 ## Introduction
-Vaultie aims to create a fully verifiable blockchain-based digital signatures that are both legally binding and link to real identities. At its core Vaultie uses Ethereum to anchor the signature, conforming to W3C standards (https://w3c-dvcg.github.io/lds-merkle-proof-2019/) and IPFS as the data storage.
+Vaultie aims to create a fully verifiable blockchain-based digital signatures that are both legally binding and link to real identities. At its core Vaultie uses Ethereum blockchain to anchor the signature, conforming to W3C standards (https://w3c-dvcg.github.io/lds-merkle-proof-2019/) and IPFS as the data storage.
 ### Ethereum
-Ethereum is an open source, public, blockchain-based distributed computing platform and operating system featuring Smart Contracts functionality. There is an ability to anchor data using an Ethereum transaction's input.
+Ethereum is an open source, public, blockchain-based distributed computing platform and operating system featuring Smart Contracts functionality. There is an ability to anchor data using an Ethereum (or other EVM-compatible) blockchain transaction's input.
 ### IPFS
 The InterPlanetary File System (IPFS) is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global decentralized file-system. Due to its content-addressing nature it is not possible to change the file contents without changing its address, thus we can consider files stored on IPFS immutable.
 ## Overview
